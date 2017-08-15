@@ -11,5 +11,5 @@ img.onclick = function() {
 document.querySelector("button").onclick = function() {
   var name = prompt("ENTrE YuOr UuseR nAme:");
   var password = prompt("ENTRE ThE PAASsWOrd:");
-  alert("HAhAH WeE DonT HavE AcCOuNTs, " + name + ", BuT NoW wEe Noe YOuer passWWoRD Iz " + password);
+  alert("HAhAH WeE DonT HavE AcCOuNTs, " + name + ", BuT NoW wEe Noe YOuer passWWoRD Iz " + password + "buTT IST  WuS NT SAVEd");
 }
