@@ -1,11 +1,11 @@
 var img = document.querySelector("img");
 img.onclick = function() {
   alert("LET ME OUT WUT DID I DOOOOOOOO AHHHHHHHHH!!!!!");
-  if(img.getAttribute("src") === "prisonboi.png") {
-    img.setAttribute("src","angryjail.png");
+  if(img.getAttribute("src") === "https://raw.githubusercontent.com/RainbowTaco/whytho/master/prisonboi.png") {
+    img.setAttribute("src","/angryjail.png");
   }
   else {
-    img.setAttribute("src","prisonboi.png");
+    img.setAttribute("src","https://raw.githubusercontent.com/RainbowTaco/whytho/master/prisonboi.png");
   }
 }
 document.querySelector("button").onclick = function() {
