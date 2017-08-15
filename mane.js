@@ -1,11 +1,11 @@
 var img = document.querySelector("img");
 img.onclick = function() {
   alert("LET ME OUT WUT DID I DOOOOOOOO AHHHHHHHHH!!!!!");
-  if(img.getAttribute("src") === "file://wffs1/Students/2022/AdamSchultzer/prisonboi.png") {
-    img.setAttribute("src","file://wffs1/Students/2022/AdamSchultzer/angryjail.png");
+  if(img.getAttribute("src") === "prisonboi.png") {
+    img.setAttribute("src","angryjail.png");
   }
   else {
-    img.setAttribute("src","file://wffs1/Students/2022/AdamSchultzer/prisonboi.png");
+    img.setAttribute("src","prisonboi.png");
   }
 }
 document.querySelector("button").onclick = function() {
