@@ -7,9 +7,9 @@ img.onclick = function() {
   else {
     img.setAttribute("src","https://raw.githubusercontent.com/RainbowTaco/whytho/master/prisonboi.png");
   }
-}
+};
 document.querySelector("button").onclick = function() {
   var name = prompt("ENTrE YuOr UuseR nAme:");
   var passw = prompt("ENTRE ThE PAASsWOrd:");
   alert("HAhAH WeE DonT HavE AcCOuNTs, " + name + ", BuT NoW wEe Noe YOuer passWWoRD Iz " + passw + " buTT I DoDnT REmebeR iT");
-}
+};
